@@ -103,25 +103,25 @@ div.ultima-visita, div.offers{
     flex-wrap: wrap;
 }
 
-.price{
+.precio{
     font-size: 18px;
     width: 30%;
 }
 
-.discount{
+.descuento{
     width: 70%;
 }
 
-.discount, .description{
+.descuento, .descripcion{
     font-size: 16px;
     font-weight: normal;
 }
 
-h3, .description{
+h3, .descripcion{
     color: #666;
 }
 
-.description{
+.descripcion{
     display: none;
     margin-top: 20px;
 }
@@ -144,7 +144,7 @@ main section article img{
     width: 100%;
 }
 
-main section article i, .discount{
+main section article i, .descuento{
     color: #39b54a;
 }
 
@@ -188,7 +188,7 @@ main section article:hover{
     box-shadow: 0px 0px 10px rgb(100, 100, 100);
 }
 
-main section article:hover .description{
+main section article:hover .descripcion{
     display: block;
 }
 
@@ -211,7 +211,7 @@ main section article:hover .description{
         width: 45%;
     }
 
-    .price, .discount{
+    .precio, .descuento{
         width: 50%;
     }
 }
