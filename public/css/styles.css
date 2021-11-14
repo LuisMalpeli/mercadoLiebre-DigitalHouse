@@ -33,8 +33,7 @@ header{
     background-color: #EAC926;
 }
 
-header div.logo,
-header .form{
+header div.logo, header .form{
     width: 50%;
 }
 
@@ -48,15 +47,23 @@ header .form{
     font-size: 11px;
 }
 header nav{
+    display: none;
     font-size: 12px;
     margin-left: 20px;
+    text-decoration: none;
 }
 
-header ul li{
-    list-style-type: none;
+    header nav .navegacion {
+        display: flex;
+        justify-content: space-between;
+    }
+
+header .links1, .links2{
+   margin: 10px 20px; 
+   
 }
 
-header ul li a{
+header .navegacion a{
     text-decoration: none;
     color: #000;
 }
@@ -91,8 +98,7 @@ div.burger-menu i{
     width: 40px;
 }
 
-div.last-visit,
-div.offers{
+div.last-visit, div.offers{
     display: flex;
     flex-wrap: wrap;
 }
@@ -106,14 +112,12 @@ div.offers{
     width: 70%;
 }
 
-.discount,
-.description{
+.discount, .description{
     font-size: 16px;
     font-weight: normal;
 }
 
-h3,
-.description{
+h3, .description{
     color: #666;
 }
 
@@ -193,6 +197,7 @@ main section article:hover .description{
 }
 
 @media (min-width: 361px){
+
     main section div.products{
         display: flex;
         flex-direction: row;
@@ -205,13 +210,21 @@ main section article:hover .description{
         width: 45%;
     }
 
-    .price,
-    .discount{
+    .price, .discount{
         width: 50%;
     }
 }
 
 @media (min-width: 769px){
+
+    header nav {
+        display:block;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
     main section div.products article{
         width: 22%;
     }
