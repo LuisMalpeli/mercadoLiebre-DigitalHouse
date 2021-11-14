@@ -98,7 +98,7 @@ div.burger-menu i{
     width: 40px;
 }
 
-div.ultima-visita, div.offers{
+div.ultima-visita, div.ofertas{
     display: flex;
     flex-wrap: wrap;
 }
